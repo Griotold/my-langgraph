@@ -1,0 +1,66 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Allow example env for collaboration
+!.env.example
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# pyenv
+.python-version
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# =========================
+# OS / Editor junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs / Temp
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Build / Cache
+# =========================
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# =========================
+# LangChain / LangGraph (optional caches)
+# =========================
+.langchain/
+.langgraph/
